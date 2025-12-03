@@ -1,25 +1,25 @@
 # Comment créer et donner accès à une institution?
 
-> La liste de vos institutions est dorénavant filtrée par type. Nous distinguerons : client (personnes morales), sous-traitant (qui vous permet de sous-traiter une course + envoyer un email automatiquement), et compte familial (lorsqu'il s'agit d'une personne physique qui a un accès à des patients de sa famille).
+>Morbi eu tempus mi. Aliquam finibus, enim finibus condimentum euismod, magna ante elementum purus, sit amet gravida mauris nisl at felis. Aliquam nec porta felis, non ultrices nisl. Quisque scelerisque hendrerit dui quis fermentum. Donec et mollis nunc. Donec convallis urna congue lectus dictum, et rutrum nunc faucibus. In sodales tincidunt tempus. Duis placerat accumsan elit consequat suscipit. Sed ac ex in sem eleifend elementum. Vivamus ac felis massa. Mauris massa erat, eleifend in arcu bibendum, consectetur varius enim. Aenean vitae molestie ante, in pellentesque ipsum. Morbi feugiat sapien ut mattis fringilla.
+
+
 >
->Cette institution aura accès aux données uniquement qui la concerne. Un Maison de repos "X" n'aura pas accès aux données des autres établissements/clients.
+>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elementum lacinia odio id porta. Vivamus luctus augue feugiat diam dignissim, in auctor purus ultricies. Etiam at luctus augue. Cras ac tempor quam. Suspendisse sem nulla, consequat nec mattis non, varius eget augue. Duis molestie fringilla aliquam. Ut in bibendum sem. Nulla placerat nisl sit amet erat facilisis rhoncus. Pellentesque euismod blandit enim ac suscipit. Proin sagittis, quam vitae auctor tincidunt, est urna auctor quam, ut consequat metus orci suscipit mauris. Integer quam mi, pellentesque eget semper nec, venenatis at est. Cras rhoncus sodales ligula gravida euismod. Vestibulum at tempor metus, sit amet pellentesque augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eu posuere purus. Nulla feugiat, erat sed tristique placerat, ligula quam malesuada tellus, nec dictum nulla tortor eget mauris.
+
+
 
 >Pour donner accès :
->1. Se rendre dans Relations >  Adresses
->2. Trouver, sur base du code postal en onglet, la bonne adresse
->3. Créer le client grâce au bouton
->4. Compléter les différents champs.
-   "Groupe de clients" permettra de définir une convention tarifaire pour les personnes reprises dans cet institution.
-   "Adresses gérées" regroupera les différents patients ayant leur domicile établi à cette adresse.  
+>1. In sagittis hendrerit turpis vel consectetur.
+>2. In sagittis hendrerit turpis vel consectetur.
+>3. In sagittis hendrerit turpis vel consectetur.
+>4. In sagittis hendrerit turpis vel consectetur.
+    Quisque vel turpis eros. Vivamus odio sem, tempus eget auctor eget, venenatis quis odio.  
 >
->Vous avez ensuite la possibilité de définir si votre institution/client devient le destinataire des factures s'il en est le demandeur, si les transports sont établis automatiquement en "à facturer plus tard" ainsi que l'échéance des factures (qui sera différente des autres clients).
+>Vestibulum posuere eros ut eros dapibus pharetra.
 >
->5. Ajouter un utilisateur en indiquant le nom, prénom et une adresse email. Celle-ci servira pour l'envoi de l'invitation a se connecter et la réception des notifications de transport.
-   Vous avez la possibilité de choisir si cet utilisateur a un droit de regard sur les différentes factures établies pour son établissement.
+>5. Vestibulum posuere eros ut eros dapibus pharetra.
 
->Vous pouvez retrouver tous les utilisateurs extérieurs via
-Relations > Institutions  > Utilisateurs > Accès clients
-
+>Vestibulum posuere eros ut eros dapibus pharetra. 
 
 
 
