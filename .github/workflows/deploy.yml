@@ -1,23 +1,30 @@
 name: Deploy Docsify
 
 on:
-  workflow_dispatch:   
+  workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
 jobs:
   deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
       - name: Upload site
         uses: actions/upload-pages-artifact@v3
         with:
           path: .  
 
-      - name: Deploy to GitHub Pages
+      - name: Deploy
+        id: deploy
         uses: actions/deploy-pages@v4
