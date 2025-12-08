@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
+  <meta name="description" content="">
+  <title>En attente de redirection</title>
+
+  <!-- Themes (light + dark) -->
+  <link rel="stylesheet" media="(prefers-color-scheme: dark)" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
+  <link rel="stylesheet" media="(prefers-color-scheme: light)" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
+  <!--  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/buble.css" />-->
+  <!--  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css" />-->
+
+  <!-- Custom Styles -->
+  <style>
+      :root {
+          /* --theme-hue: 325; */
+      }
+  </style>
+</head>
+<body>
+<div id="app"></div>
+
+<script>
+    // Docsify Configuration
+    window.$docsify = {
+        loadSidebar: true,
+        basePath: '/Documentation-MediFleet/docs/',
+        alias: {
+            '/.*/_sidebar.md': '/docs/_sidebar.md',
+            '/.*/README.md': '/docs/README.md',
+        },
+        subMaxLevel: 3,
+        // plugins: [
+        //     EditOnGithubPlugin.create(
+        //         'https://github.com/nominae/nominae.github.io/docs/',
+        //     )
+        // ],
+
+
+        search: {
+            maxAge: 180000,
+            paths: 'auto',
+            placeholder: 'Chercher parmi la FAQ',
+            noData: 'Pas de résultats',
+            depth: 3,
+            hideOtherSidebarContent: false, // whether or not to hide other sidebar content
+        },
+        pagination: {
+            previousText: 'Précédent',
+            // or
+            nextText: 'Suivant',
+            crossChapter: true,
+            crossChapterText: true,
+        },
+        timeUpdater: {
+            text: ">Dernière modification le: {docsify-updated}",
+            formatUpdated: "{DD}/{MM}/{YYYY}",
+            whereToPlace: "bottom",  // "top" or "bottom", default to "bottom"
+        },
+    };
+</script>
+
+<script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+
+<script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsify-updated/src/time-updater.min.js"></script>
+
+
+<!-- Required -->
+<script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
+
+<!-- Recommended -->
+<script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
+</body>
+</html>
