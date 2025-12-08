@@ -4,6 +4,7 @@
   - [Utilisateurs](users/usersLandingPage.md)
   - [Clients](clients/clientsLandingPage.md)
   - [Facturation](facture/invoicingLandingPage.md)
+  - [Facturation électronique](facture/peppol.md)
   - [Application mobile](mobile/mobileLandingPage.md)
   - [Dispatching](dispatching/dispatchingLandingPage.md)
 
